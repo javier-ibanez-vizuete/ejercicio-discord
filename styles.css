@@ -453,7 +453,7 @@ hr {
     }
     
     header {
-        padding: 12px 8px 0;
+        padding: 12px 12px 0;
         background-image: none;
         align-items: stretch;
     }
@@ -581,5 +581,112 @@ hr {
     
     .image-rightside-header-container {
         display: none;
+    }
+
+    /* -------MAIN------------- */
+    /* ---------MAIN / SECTION------------ */
+    main {
+        /* padding: 40px 0px; */
+    }
+
+    .section-styles {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 28px;
+        align-items: stretch;
+
+        padding: 60px 12px 120px;
+        height: inherit;
+    }
+
+    .image-container {
+        flex: 1;
+        order: -1;
+    }
+    
+    .image-container img {
+        width: 100%;
+    }
+    
+    .texts-container {
+        flex: 1;
+        height: inherit;
+        width: inherit;
+        justify-content: space-between;
+        gap: 24px;
+    }
+    
+    .section-title {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    
+    .section-parragraph {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    
+    .chilling-style {
+        padding-bottom: 60px;
+    }
+
+    /* --------MAIN / DOWLOADER-SECTION------ */
+
+    .downloader-section {
+        justify-content: center;
+        align-items: stretch; 
+        padding: 80px 12px;
+    }
+    
+    .section-top-side {
+        justify-content: space-between;
+        gap: 28px;
+        align-items: stretch;
+        height: inherit;
+    }
+    
+    .style-title-last-section {
+        width: 100%;
+        font-size: 36px;
+        line-height: 1;
+        font-weight: 900;
+    }
+    
+    .section-top-side p {
+        width: 100%;
+    }
+    
+    .downloader-image-container {
+        width: 100%;
+        align-items: stretch;
+    }
+    
+    .downloader-image-container img {
+        width: 100%;
+    }
+    
+    .section-bottom-side {
+        height:inherit;
+        background-size: contain;
+        background-position: 50% 10%;
+        row-gap: 20px;
+        width: 100%;
+        padding-top: 52px;
+    }
+    
+    .section-bottom-side .xtra-title-styles {
+        font-size: 20px;
+        line-height: 1.2;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .last-section-btn-container button {
+        column-gap: 8px;
+        padding: 12px 28px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: inherit;
     }
 }
