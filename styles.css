@@ -449,7 +449,7 @@ hr {
 
 @media only screen and (min-width: 350px) and (max-width: 480px) {
     body {
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 
     header {
@@ -466,7 +466,8 @@ hr {
     .logo-nav-container {
         align-items: center;
         justify-content: flex-start;
-        flex: 1 0;
+        flex-shrink: 0;
+        max-width: 150px;
     }
 
     .logo-nav-container img {
@@ -566,7 +567,7 @@ hr {
     .btns-header-container {
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         row-gap: 20px;
     }
 
