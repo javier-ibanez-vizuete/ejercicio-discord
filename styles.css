@@ -1,0 +1,424 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p,
+a,
+button,
+span,
+label {
+    font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ESTILOS DEL HEADER */
+header {
+    background-color: #404EED;
+    background-image: url(/images/background-image-clouds-header.svg);
+    background-size: 154%;
+    background-position: 53% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ESTILOS DEL NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
+
+.logo-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+.logo-nav-container img {
+    width: 125px;
+}
+
+.nav-menu {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    flex: 1;
+}
+
+.menu-item a:hover {
+    text-decoration-line: underline;
+}
+
+.btn-nav-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    font-size: 14px;
+}
+
+.btn-nav-container a:hover {
+    color: #5865f2;
+}
+
+.btn-style {
+    padding: 8px 16px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.bottom-side-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+    overflow: hidden;
+}
+
+.image-leftside-header-container {
+    margin-left: -160px;
+    align-self: flex-end;
+    display: flex;
+}
+
+.image-leftside-header-container img {
+    width: 500px;
+}
+
+.elements-middle-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    flex: 1;
+}
+
+.text-header-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-parragraphs {
+    font-size: 20px;
+    line-height: 1.625;
+    color: white;
+}
+
+.btns-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.btns-header-container button:hover {
+    cursor: pointer;
+}
+
+.btn-container button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.header-btn {
+    padding: 16px 32px;
+}
+
+.second-btn-style {
+    padding: 20px 32px;
+    background-color: black;
+    color: white;
+}
+
+.image-rightside-header-container {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -160px;
+
+}
+
+.image-rightside-header-container img {
+    width: 500px;
+}
+
+/* ESTILOS PARA EL MAIN DE LA PAGINA */
+
+.section-styles {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    gap: 120px;
+    align-items: center;
+}
+
+.image-container img {
+    width: 600px;
+}
+
+.texts-container {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section-title {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.section-parragraph {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.chilling-style {
+    background-color: #F6F6F6;
+}
+
+/* ESTILOS PARA LA SECCION DE DESCARGA */
+
+.downloader-section {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+}
+
+.section-top-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    height: 300px;
+}
+
+.style-title-last-section {
+    width: 1100px;
+}
+
+.section-top-side p {
+    width: 1075px;
+}
+
+.downloader-image-container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.downloader-image-container img {
+    width: 100%;
+}
+
+.section-bottom-side {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/image-stars-downloading-section.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50% 25%;
+    row-gap: 40px;
+    width: 70%;
+}
+
+.section-bottom-side .xtra-title-styles {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.last-section-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section-btn-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 16px 32px;
+    background-color: #7289DA;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.last-section-btn-container button:hover {
+    box-shadow: 0px 10px 13px -8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s linear;
+    filter: brightness(130%);
+}
+
+/* ESTILOS DEL FOOTER */
+
+footer {
+    background-color: #23272A;
+    padding: 100px 200px;
+}
+
+/* ESTILOS PARA LA PARTE SUPERIOR DEL FOOTER */
+
+.footer-top-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 500px;
+}
+
+.left-top-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.language-container select {
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-decoration-line: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.social-container a img {
+    width: 25px;
+}
+
+.right-top-side {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 1;
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 200px;
+}
+
+.list-title-footer {
+    color: #5865D8;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.list-item-footer {
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.list-item-footer a:hover {
+    text-decoration-line: underline;
+}
+
+.politic-list {
+    padding-right: 12px;
+}
+
+hr {
+    border-color: #3E468E;
+}
+
+/* ESTILOS PARA LA PARTE INFERIOR DEL FOOTER */
+
+.bottom-side-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.footer-image-container img {
+    width: 125px;
+}
+
+.btn-footer-container button {
+    font-size: 14px;
+    background-color: #7289DA;
+    color: white;
+}
+
+.btn-footer-container button:hover {
+    filter: brightness(120%);
+    transition: 0.3 ease-in-out;
+}
