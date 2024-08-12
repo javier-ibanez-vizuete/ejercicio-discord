@@ -92,6 +92,26 @@ nav {
     text-decoration-line: underline;
 }
 
+.responsive-hidden-container {
+    position: relative;
+}
+
+.container-pop-menu {
+    display: none;
+}
+
+.pop-up-menu {
+    display: none;
+    background-color: #23272A;
+    color: #fff;
+    /* padding: 8px; */
+    border-radius: 8px;
+    position: absolute;
+    top: 80%;
+    right: 0;
+
+}
+
 .btn-nav-container {
     display: flex;
     align-items: center;
@@ -111,6 +131,8 @@ nav {
     font-weight: 700;
     line-height: 24px;
 }
+
+/* ------BOTTOM SIDE HEADER */
 
 .bottom-side-header {
     display: flex;
@@ -421,4 +443,75 @@ hr {
 .btn-footer-container button:hover {
     filter: brightness(120%);
     transition: 0.3 ease-in-out;
+}
+
+/* -------RESPONSIVE 350px to 480px---------- */
+
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+    body {
+        /* overflow-x: hidden; */
+    }
+    
+    header {
+        padding: 12px 8px;
+        background-image: none;
+        align-items: stretch;
+    }
+
+    /* -----NAV------ */
+    nav {
+        justify-content: space-between;
+    }
+
+    .logo-nav-container {
+        align-items: center;
+        justify-content: flex-start;
+        flex: 1 0;
+    }
+
+    .logo-nav-container img {
+        width: 100%;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .responsive-hidden-container {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .container-pop-menu {
+        display: block;
+    }
+
+    .container-pop-menu:hover .pop-up-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 4px;
+    }
+
+    .menu-hidden-item {
+        padding: 4px;
+    }
+
+    .logging-button {
+        color: black;
+        background-color: white;
+        padding: 4px;
+        width: 100%;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    
+    .menu-hidden-item a:hover {
+        text-decoration-line: underline;
+    }
+
+    .btn-nav-container {
+        display: none;
+    }
 }
