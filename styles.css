@@ -556,7 +556,7 @@ hr {
 
     .header-title {
         font-size: 24px;
-        width: 70%;
+        font-weight: 900;
     }
 
     .header-parragraphs {
@@ -567,13 +567,26 @@ hr {
     .btns-header-container {
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: stretch;
         row-gap: 20px;
     }
 
+    .btn-container button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btns-header-container .second-btn-style {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
 
     .header-btn {
         padding: 12px 28px;
+    }
+
+    .btn-link-container {
     }
 
     .second-btn-style {
@@ -649,7 +662,7 @@ hr {
 
     .style-title-last-section {
         width: 100%;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 1;
         font-weight: 900;
     }
@@ -679,16 +692,22 @@ hr {
     .section-bottom-side .xtra-title-styles {
         font-size: 20px;
         line-height: 1.2;
-        width: 80%;
         margin: 0 auto;
     }
 
+    .last-section-btn-container {
+    align-self: stretch;
+    }
+
     .last-section-btn-container button {
-        column-gap: 8px;
+        justify-content: flex-start;
+        column-gap: 36px;
+
         padding: 12px 28px;
         font-size: 14px;
         font-weight: 700;
         line-height: inherit;
+        width: 100%;
     }
 
     /* -----------FOOTER------------ */
@@ -731,7 +750,7 @@ hr {
 
     .list-footer {
         row-gap: 8px;
-        width: auto;
+        /* width: auto; */
         flex: 1 0 40%;
     }
 
