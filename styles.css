@@ -586,9 +586,6 @@ hr {
         padding: 12px 28px;
     }
 
-    .btn-link-container {
-    }
-
     .second-btn-style {
         padding: 16px 28px;
     }
@@ -696,7 +693,7 @@ hr {
     }
 
     .last-section-btn-container {
-    align-self: stretch;
+        align-self: stretch;
     }
 
     .last-section-btn-container button {
@@ -772,7 +769,7 @@ hr {
     .footer-image-container {
         max-width: 120px;
     }
-    
+
     .footer-image-container img {
         width: 100%;
     }
